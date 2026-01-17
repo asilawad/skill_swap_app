@@ -50,7 +50,7 @@ final ThemeData lightTheme = ThemeData(
       fontWeight: FontWeight.w400,
     ),
     errorStyle: TextStyle(
-      color: ColorManager.errorColor,
+      color: ColorManager.redColor,
       fontSize: 14,
       fontWeight: FontWeight.w400,
     ),
@@ -76,7 +76,7 @@ final ThemeData lightTheme = ThemeData(
       borderRadius: BorderRadius.all(
         Radius.circular(BorderRadiusSize.borderRadius),
       ),
-      borderSide: BorderSide(color: ColorManager.errorColor),
+      borderSide: BorderSide(color: ColorManager.redColor),
     ),
     focusedErrorBorder: OutlineInputBorder(
       borderRadius: BorderRadius.all(

@@ -10,10 +10,12 @@ class ColorManager {
   static const primaryBlueMuted = Color(0xFF6680B3);
 
   // State Colors
-  static const errorColor = Color(0xFFDC2626);
-  static const warningColor = Color(0xFFF59E0B);
-  static const successColor = Color(0xFF16A34A);
-  static const infoColor = Color(0xFF3B82F6);
+  static const redColor = Color(0xFFDC2626);
+  static const yellowColor = Color(0xFFF59E0B);
+  static const greenColor = Color(0xFF16A34A);
+  static const blueColor = Color(0xFF3B82F6);
+  static const whiteColor = Color(0xFFFFFFFF);
+  static const greyColor = Color(0xFF666666);
 
   // Text Colors
   static const textPrimary = Color(0xFF0C0D0F);
